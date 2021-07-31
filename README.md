@@ -1,5 +1,6 @@
 # Retailers and the Power of Sales
 Retail Sales Analysis with Machine Learning
+![FireSale](Images/Tobias_Fire_Sale.JPG)
 
 ## Purpose
 * Why are we doing this?
