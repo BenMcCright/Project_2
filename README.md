@@ -44,7 +44,7 @@ Finalised Data: [NotarealLinkATM]()
 * What we learned from the program/interesting insights.
 * 
 ## Project Worked on By
-* [William Brooks]()
-* [Jon Iadonisi]()
+* [William Brooks](https://github.com/Wil-bro0824)
+* [Jon Iadonisi](https://github.com/Jfrog242)
 * [Benjamin McCright]
 * [David Ready](https://github.com/CrusadingGroundhog)
