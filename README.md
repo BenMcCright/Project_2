@@ -46,5 +46,5 @@ Finalised Data: [NotarealLinkATM]()
 ## Project Worked on By
 * [William Brooks](https://github.com/Wil-bro0824)
 * [Jon Iadonisi](https://github.com/Jfrog242)
-* [Benjamin McCright]
+* [Benjamin McCright](https://github.com/BenMcCright)
 * [David Ready](https://github.com/CrusadingGroundhog)
