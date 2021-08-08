@@ -37,12 +37,23 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 * In our models we kept to 6 as our window and ran 10 Epochs when building the LSTM models. After experimentation we felt this gave us the best results.   
 
 ## Analysis
-* Single images and what they mean.
+![AcneSales](Images/Acne_Sales.png)
+* The Sales graph here shows the breadth of our data. All three of the graphs show the same basic pattern of dropping massively during the lockdown, bouncing back up higher then settling down. 
+
+![LotionScatter](Images/Lotion_Scatter&Predictions.png)
+
+* Lotion is our best looking example of a trend in scatter, with it we can see why it has 84% in Seasonality and is our best looking of the SVR predictor.  
+
+
 
 ## GIFs of Data & Dashboard
 * Place to put Dashboard/GIFs whenever we design it. 
 
 ![SalesData](Images/SalesGif.gif)
+
+![ScatterPlot](Images/CombinedScatter.gif)
+
+![PromtionalData](Images/PromoVNo.gif)
 
 ![LSTM Data](Images/LSTM.gif)
 
