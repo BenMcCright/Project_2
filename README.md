@@ -32,7 +32,8 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
   * ARIMA
   * LTSM
   * SVR 
-* ARIMA results with the moving average kept closest to all of 
+* ARIMA is used to see the "change since last time." Since it has a moving average the predictions for it will run a bit smoother and likely closely match the actual sales. 
+* LTSM is the "longest" of our machine learning that we used. The one that sees the biggest picture. While ARIMA takes a snapshot we used LTSM to give us an idea of any greater trends there might be. 
 * SVR is used to try to establish if there is any link between a specific week of the year and sales in any of our three ideas. 
 * In our models we kept to 6 as our window and ran 10 Epochs when building the LSTM models. After experimentation we felt this gave us the best results.   
 
@@ -42,12 +43,19 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 
 ![LotionScatter](Images/Lotion_Scatter&Predictions.png)
 
-* Lotion is our best looking example of a trend in scatter, with it we can see why it has 84% in Seasonality and is our best looking of the SVR predictor.  
+* Lotion is our best looking example of a trend in scatter, with it we can see why it has greater than 80% in Seasonality and is our best looking of the SVR predictor.  
 
-![AcnePromoVNo](Images/ProvNoAcne.png)
+![AcneArima](Images/AcneArima.png) 
 
-* Acne, as seen in this histogram shows a great example how the promotions work. It is a good bell curve.  
+* As seen here, Arima predicted sales follows the actual sales pretty closely. 
 
+![LotionPromo](Images/ProvNoLotion.png)
+
+* Lotion is the best example of how promotions work. The bulk of the red "no-promo" is on the left side of the graph, smaller sales and the blue "promo" area populates the right side of the graph.  
+
+![LotionLTSM](Images/Lotion_LSTM.png)
+
+* All three of the LTSM models predicted that the sales would be consistetenly higher than what it was 
 
 
 ## GIFs of Data & Dashboard
