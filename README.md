@@ -32,7 +32,7 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
   * ARIMA
   * LTSM
   * SVR 
-* ARIMA 
+* ARIMA results with the moving average kept closest to all of 
 * SVR is used to try to establish if there is any link between a specific week of the year and sales in any of our three ideas. 
 * In our models we kept to 6 as our window and ran 10 Epochs when building the LSTM models. After experimentation we felt this gave us the best results.   
 
@@ -44,6 +44,10 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 
 * Lotion is our best looking example of a trend in scatter, with it we can see why it has 84% in Seasonality and is our best looking of the SVR predictor.  
 
+![AcnePromoVNo](Images/ProvNoAcne.png)
+
+* Acne, as seen in this histogram shows a great example how the promotions work. It is a good bell curve.  
+
 
 
 ## GIFs of Data & Dashboard
@@ -52,6 +56,8 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 ![SalesData](Images/SalesGif.gif)
 
 ![ScatterPlot](Images/CombinedScatter.gif)
+
+![ArimaGif](Images/ArimaGif.gif)
 
 ![PromtionalData](Images/PromoVNo.gif)
 
