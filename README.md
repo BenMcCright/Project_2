@@ -41,7 +41,7 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 ![AcneSales](Images/Acne_Sales.png)
 * The Sales graph here shows the breadth of our data. All three of the graphs show the same basic pattern of dropping massively during the lockdown, bouncing back up higher then settling down. 
 
-![LotionScatter](Images/Lotion_Scatter&Predictions.png)
+![LotionScatter](Images/Lotion_Scatter&PredictionsFixed.png)
 
 * Lotion is our best looking example of a trend in scatter, with it we can see why it has greater than 80% in Seasonality and is our best looking of the SVR predictor.  
 
