@@ -53,9 +53,13 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 
 * Lotion is the best example of how promotions work. The bulk of the red "no-promo" is on the left side of the graph, smaller sales and the blue "promo" area populates the right side of the graph.  
 
+![AcneSVR](Images/Acne_SVR.png)
+
+* We rain SVR to see if there was any relation between the sales and any specific week. There did not appear to be any relation to specific weeks on the sales
+
 ![LotionLTSM](Images/Lotion_LSTM.png)
 
-* All three of the LTSM models predicted that the sales would be consistetenly higher than what it was 
+* All three of the LTSM models predicted that the sales would be consistetenly higher than what it was, likely due to the normal data from 2019/early 2020 and pre-Covid and the massive drop in March 2020 being so outside the normal realm that LTSM did not want to fully commit to the new info.
 
 
 ## GIFs of Data & Dashboard
@@ -70,6 +74,8 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 ![PromtionalData](Images/PromoVNo.gif)
 
 ![LSTM Data](Images/LSTM.gif)
+
+![SVR Data](SVRGif.gif)
 
 
 ## Conclusion
