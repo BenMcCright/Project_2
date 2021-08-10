@@ -75,7 +75,7 @@ Finalised Data: [Sales & Promotional Data 2019/20](Data/sales_promo_data_19_20.c
 
 ![LSTM Data](Images/LSTM.gif)
 
-![SVR Data](SVRGif.gif)
+![SVR Data](Images/SVRGif.gif)
 
 
 ## Conclusion
